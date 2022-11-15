@@ -16,7 +16,7 @@ fi
 #env | grep cuda
 nvcc --version
 echo '********************'
-echo 'Find Some CUDA packages installed under /usr/local/'
+echo 'Finding CUDA packages installed under /usr/local/'
 echo '********************'
 ls /usr/local -l | grep cuda
 echo '===================='
