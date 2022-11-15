@@ -20,7 +20,13 @@ echo 'Find Some CUDA packages installed under /usr/local/'
 echo '********************'
 ls /usr/local -l | grep cuda
 echo '===================='
-#echo `ls /usr/local | grep cuda`
+cudaInstalledList=$(ls /usr/local | grep cuda)
+if [ -z "$cudaInstalledList" ]
+then
+    echo 'Please install multiple versions of CUDA First. https://developer.nvidia.com/cuda-downloads'
+    echo 'This script is only a selector.'
+    exit
+fi
 echo '===================================='
 cudaListNum=0
 for loop in `ls /usr/local | grep cuda`
