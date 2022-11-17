@@ -21,8 +21,3 @@ source <(curl -s -S -L https://gitee.com/a236752252/CUDA_Version_Selector/raw/ma
 ```
 
 #### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
