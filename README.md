@@ -1,7 +1,8 @@
 # CUDA_Version_Selector
 
 #### 介绍
-CUDA_Version_Selector For Ubuntu
+CUDA Version Selector For Ubuntu.
+
 Shell Script. 
 Help someone specify a CUDA version.
 
